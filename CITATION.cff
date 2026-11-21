@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper and this repository."
+title: "RMPF: code, data and results for 'Improved Method for Merging Particle Filter Using Random Merging Coefficients'"
+version: 1.0.0
+date-released: 2026-11-21
+license: MIT
+repository-code: "https://github.com/<ACCOUNT>/RMPF"
+authors:
+  - family-names: Hiramoto
+    given-names: Naoki
+    affiliation: "Graduate Institute for Advanced Studies, SOKENDAI"
+  - family-names: Ueno
+    given-names: Genta
+    affiliation: "The Institute of Statistical Mathematics"
+  - family-names: Murakami
+    given-names: Daisuke
+    affiliation: "The Institute of Statistical Mathematics"
+preferred-citation:
+  type: article
+  title: "Improved Method for Merging Particle Filter Using Random Merging Coefficients"
+  journal: "Nonlinear Processes in Geophysics (EGUsphere preprint egusphere-2026-4073)"
+  year: 2026
+  authors:
+    - family-names: Hiramoto
+      given-names: Naoki
+    - family-names: Ueno
+      given-names: Genta
+    - family-names: Murakami
+      given-names: Daisuke

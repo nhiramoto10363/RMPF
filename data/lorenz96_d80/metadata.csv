@@ -1,0 +1,9 @@
+,0
+steps,20000.0
+warmup_steps,2000.0
+F,8.0
+dim,80.0
+dt,0.005
+obs_interval,10.0
+obs_noise_std,1.5
+num_observations,2000.0

@@ -1,0 +1,12 @@
+# PBS job files: used to rerun the experiments on our HPC system, not part of the public repository
+jobs/
+*.o[0-9]*
+*.e[0-9]*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# smoke tests
+results/*/experiments_quick/
+results/*/select_n_quick/
+# logs of runs (written by jobs/)
+logs/

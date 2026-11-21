@@ -1,0 +1,13 @@
+{
+  "title": "RMPF: code, data and results for \"Improved Method for Merging Particle Filter Using Random Merging Coefficients\"",
+  "upload_type": "software",
+  "description": "Source code of the randomized merging particle filter (RMPF) and of all experiments, the data (true states and observations), the results of every run (CSV files) and the scripts that produce the tables and figures of the paper by Hiramoto, Ueno and Murakami submitted to Nonlinear Processes in Geophysics (egusphere-2026-4073). The code is licensed under MIT; data/, results/, tables/ and figures/ under CC BY 4.0.",
+  "creators": [
+    {"name": "Hiramoto, Naoki", "affiliation": "Graduate Institute for Advanced Studies, SOKENDAI"},
+    {"name": "Ueno, Genta", "affiliation": "The Institute of Statistical Mathematics"},
+    {"name": "Murakami, Daisuke", "affiliation": "The Institute of Statistical Mathematics"}
+  ],
+  "license": "MIT",
+  "keywords": ["particle filter", "merging particle filter", "data assimilation", "Lorenz-63", "Lorenz-96"],
+  "version": "1.0.0"
+}

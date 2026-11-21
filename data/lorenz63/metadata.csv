@@ -1,0 +1,11 @@
+,0
+steps,50000.0
+warmup_steps,1000.0
+sigma,10.0
+rho,28.0
+beta,2.6666666666666665
+dim,3.0
+dt,0.01
+obs_interval,20.0
+obs_noise_std,1.0
+num_observations,2500.0

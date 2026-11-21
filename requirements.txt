@@ -1,0 +1,24 @@
+# Software environment of the experiments on superdome1 (Sect. 5, Appendix C1-C3 of the paper):
+# Intel Distribution for Python 2022.3.1 (module intelpython3/2022.3.1) with
+#   Python 3.9.13, numpy 1.21.4, numba 0.55.1 (llvmlite 0.38), pandas 1.3.5.
+# The versions below are those of that environment for the numerical core. A pip installation of the
+# same versions gives results of the same accuracy, but not bitwise identical ones (the Intel build links
+# numpy to MKL and provides Intel math libraries to numba, and the systems are chaotic, so that small
+# differences in the last bits grow). Bitwise reproduction of results/ requires the Intel build.
+#
+#     conda create -n rmpf python=3.9.13
+#     conda activate rmpf
+#     pip install -r requirements.txt
+#
+# numba only supports a specific range of numpy versions (numba 0.55: numpy 1.18-1.21).
+
+numpy==1.21.4
+numba==0.55.1
+pandas==1.3.5
+
+# Figures and checks (not used by the experiments). The figures of the paper were drawn with
+# matplotlib 3.10 (Python 3.11); these versions are the newest that support Python 3.9 and numpy 1.21
+# and give the same tables and figures (up to anti-aliasing).
+matplotlib==3.5.3
+scipy==1.7.3        # theory/check_merging_theory.py, theory/plot_merging_density.py
+tqdm==4.64.1        # progress bars (optional)
