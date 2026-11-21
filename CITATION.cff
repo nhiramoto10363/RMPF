@@ -4,7 +4,7 @@ title: "RMPF: code, data and results for 'Improved Method for Merging Particle F
 version: 1.0.0
 date-released: 2026-11-21
 license: MIT
-repository-code: "https://github.com/<ACCOUNT>/RMPF"
+repository-code: "https://github.com/nhiramoto10363/RMPF"
 authors:
   - family-names: Hiramoto
     given-names: Naoki
